@@ -24,7 +24,7 @@ class Carro(Veiculo):
 class Caminhao(Veiculo):
     def __init__(self, motor):
         super(Caminhao, self).__init__(motor)
-
+ 
     def mover(self):
         print("Caminhao movido a ", end="")
         self.motor.energia()
