@@ -1,11 +1,11 @@
 import abc
 
-class Motor(metaclass=abc.ABCMeta):
+class Motor():
     @abc.abstractmethod
     def energia(self):
         pass
 
-class Veiculo(metaclass=abc.ABCMeta):
+class Veiculo():
     def __init__(self, motor):
         self.motor = motor
 
